@@ -1,0 +1,35 @@
+#buttonStart{
+    width:150px;
+    height:60px;
+    border-radius: 5;
+    background: rgba(88, 163, 233, 0.364);
+    border-color: black; 
+    color: black;  
+    font-family: 'Oswald', sans-serif;
+    cursor: pointer;
+    border-radius: 10px;
+}
+#buttonStop{
+    width:150px;
+    height:60px;
+    border-radius: 5;
+    background: rgba(88, 163, 233, 0.364);
+    border-color: black; 
+    color: black;  
+    font-family: 'Oswald', sans-serif;
+    cursor: pointer;
+    border-radius: 10px;
+}
+#buttonStop:hover{
+    background: linear-gradient(rgba(88, 163, 233, 0.364), rgba(169, 207, 243, 0.364));
+    transition: 2s;
+}
+#buttonStart:hover{
+    background: linear-gradient(rgba(88, 163, 233, 0.364), rgba(169, 207, 243, 0.364));
+    transition: 2s;
+}
+#AllButton{
+    text-align: center;
+    margin-right: 20px;
+    
+}
